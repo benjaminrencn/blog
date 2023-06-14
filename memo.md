@@ -13,7 +13,8 @@
 
 ## vitepress
 
-* https://vitepress.dev/guide/getting-started
+* 官网 https://vitepress.dev
+* 教程 https://vitepress.dev/guide/getting-started
 
 ## git
 
