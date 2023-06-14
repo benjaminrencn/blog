@@ -5,11 +5,14 @@
 ### emoji
 
 * https://github.com/ikatyang/emoji-cheat-sheet
-    * 🚀🎉🏆🔖🏷️📔📗📙📘📓✉️✏️📅📎📌✂️🔒🔓🔑🔨🛠️🔧🪛⚙️🔗⚠️🚫❓❗⭕❌✅❎🚩
+    * 🚀🎉🏆🔖🏷📔📗📙📘📓✉️✏️📅📎📌✂️🔒🔓🔑🔨🛠🔧🪛⚙️🔗🚫❓❗⭕❌✅❎🚩
+* https://github.com/markdown-it/markdown-it-emoji/blob/master/lib/data/full.json
+  * vitepress markdown extensions 中 emoji 的链接
 
 ## nvm
 
-* nvm alias default 16.14.0
+* `nvm alias default 18.16.0` 切换到当前使用的版本
+* `nvm alias default 12.9.1` 切换回去
 
 ## vitepress
 
