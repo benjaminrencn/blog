@@ -5,7 +5,7 @@
 ### emoji
 
 * https://github.com/ikatyang/emoji-cheat-sheet
-    * 🚀🎉🏆🔖🏷📔📗📙📘📓✉️✏️📅📎📌✂️🔒🔓🔑🔨🛠🔧🪛⚙️🔗🚫❓❗⭕❌✅❎🚩
+  * 🚀🎉🏆🔖🏷📔📗📙📘📓✉️✏️📅📎📌✂️🔒🔓🔑🔨🛠🔧🪛⚙️🔗🚫❓❗✔️⭕❌✅❎🚩
 * https://github.com/markdown-it/markdown-it-emoji/blob/master/lib/data/full.json
   * vitepress markdown extensions 中 emoji 的链接
 
@@ -50,6 +50,15 @@
       - Make sure to add .vitepress/dist and .vitepress/cache to your .gitignore file.
       ```
 * 运行 `npm run docs:dev`
+
+## markdown
+
+* https://github.github.com/gfm/
+  * GitHub Flavored Markdown Spec
+* https://vitepress.dev/guide/markdown
+  * VitePress Markdown Extensions
+* `<ul>` 用 `*`
+* `<ol>` 用 `1.`
 
 ## 文档
 
