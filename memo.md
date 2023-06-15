@@ -5,7 +5,7 @@
 ### emoji
 
 * https://github.com/ikatyang/emoji-cheat-sheet
-  * 🚀🎉🏆🔖🏷📔📗📙📘📓✉️✏️📅📎📌✂️🔒🔓🔑🔨🛠🔧🪛⚙️🔗🚫❓❗✔️⭕❌✅❎🚩
+  * 🚀🎉🏆🔖🏷📔📗📙📘📓✉️✏️📅📎📌✂️🔒🔓🔑🔨🛠🔧🪛⚙️🔗🚫❓❗✔️⭕❌✅❎🚩❤️
 * https://github.com/markdown-it/markdown-it-emoji/blob/master/lib/data/full.json
   * vitepress markdown extensions 中 emoji 的链接
 
@@ -51,6 +51,10 @@
       ```
 * 运行 `npm run docs:dev`
 
+### nav
+
+* 配置的 `activeMatch: '/netease-study-junior-fe|/'` 需要同步
+
 ## markdown
 
 * https://github.github.com/gfm/
@@ -59,6 +63,9 @@
   * VitePress Markdown Extensions
 * `<ul>` 用 `*`
 * `<ol>` 用 `1.`
+* `<hr>` 用 `---`
+* `<h1>` 下面用 `<Badge>` 前中间加 `<hr>`
+* `<a>` `* [📎 name](url)`
 
 ## 文档
 
@@ -68,6 +75,10 @@
 .
 ├─ docs vitepress 根目录
 │  ├─ .vitepress vitepress 配置目录
+│  │  ├─ config 配置文件供 config.js 引用
+│  │  │  ├─ config 配置参数
+│  │  │  ├─ nav 导航
+│  │  │  └─ sidebar 侧边栏
 │  │  └─ config.js 配置文件
 │  ├─ netease-study-junior-fe 网易云课堂初级级前端开发工程师
 │  │  ├─ images 图片
@@ -101,5 +112,5 @@ git config --global http.sslverify=true
 * `[vitepress/nav]` `[vitepress/sidebar]` `[vitepress/search]` `[vitepress/footer]` `[vitepress/home]` 对应 vitepress 的nav、sidebar、footer、search、home page
 * `[blog]` 除了`[vitepress]`的笔记、代码
 * `[blog/index]` 首页
-* `[netease-study-junior-fe]` 网易云课堂初级级前端开发工程师
-* `[netease-study-senior-fe]` 网易云课堂高级前端开发工程师
+* `[netease-study-junior-fe]` 网易云课堂 初级级前端开发工程师
+* `[netease-study-senior-fe]` 网易云课堂 高级前端开发工程师
