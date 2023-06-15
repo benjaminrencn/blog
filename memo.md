@@ -51,6 +51,28 @@
       ```
 * 运行 `npm run docs:dev`
 
+## 文档
+
+### 目录
+
+```
+.
+├─ docs vitepress 根目录
+│  ├─ .vitepress vitepress 配置目录
+│  │  └─ config.js 配置文件
+│  ├─ netease-study-junior-fe 网易云课堂初级级前端开发工程师
+│  │  ├─ images 图片
+│  │  └─ snippets 代码片段
+│  ...
+│  └─ index.md 首页
+└─ package.json
+```
+
+### 标签
+
+* 使用 vitepress 的 `<Badge type="tip" />`
+* 技术 `前端` `html` `css` `less` `sass` `scss` `javascript` `vue` `react`
+
 ## git
 
 ### config
@@ -67,7 +89,8 @@ git config --global http.sslverify=true
 * `[readme]` README.md文件单独修改
 * `[memo]` 备忘录单独修改
 * `[vitepress]` vitepress配置、插件
-* `[vitepress/nav]` `[vitepress/sidebar]` `[vitepress/home]` `[vitepress/footer]` `[vitepress/search]` 对应 vitepress 的nav、sidebar、home page、footer、search
-* `[blog]` 除了`[vitepress]`、笔记、代码的
+* `[vitepress/nav]` `[vitepress/sidebar]` `[vitepress/search]` `[vitepress/footer]` `[vitepress/home]` 对应 vitepress 的nav、sidebar、footer、search、home page
+* `[blog]` 除了`[vitepress]`的笔记、代码
+* `[blog/index]` 首页
 * `[netease-study-junior-fe]` 网易云课堂初级级前端开发工程师
 * `[netease-study-senior-fe]` 网易云课堂高级前端开发工程师
