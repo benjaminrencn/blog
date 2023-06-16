@@ -10,6 +10,10 @@ export default [
         ]
       }
     ],
-    activeMatch: '/netease-study-junior-fe|/'
+    activeMatch: '/netease-study-junior-fe/'
+  },
+  {
+    text: '备忘录',
+    link: '/memo'
   }
 ]

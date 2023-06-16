@@ -9,6 +9,10 @@
 * https://github.com/markdown-it/markdown-it-emoji/blob/master/lib/data/full.json
   * vitepress markdown extensions 中 emoji 的链接
 
+### 音视频转文字 AI
+
+* ❤️通义听悟 https://tingwu.aliyun.com/home
+
 ## nvm
 
 * `nvm alias default 18.16.0` `nvm use default` 切换到当前使用的版本
@@ -19,7 +23,8 @@
 * 官网 https://vitepress.dev
 * 教程 https://vitepress.dev/guide/getting-started
   * Installation/Setup Wizard 步骤中
-    * ```shell
+    * ::: details `vitepress init`
+      ```shell
       blog % npx vitepress init
 
         vitepress v1.0.0-beta.2
@@ -49,7 +54,11 @@
       Tips:
       - Make sure to add .vitepress/dist and .vitepress/cache to your .gitignore file.
       ```
+      :::
 * 运行 `npm run docs:dev`
+* 源码 https://github.dev/vuejs/vitepress
+  * 默认主题类型 `vuejs/vitepress/types/default-theme.d.ts`
+  * `import type { DefaultTheme } from 'vitepress/theme'`
 
 ### nav
 
@@ -61,6 +70,8 @@
   * GitHub Flavored Markdown Spec
 * https://vitepress.dev/guide/markdown
   * VitePress Markdown Extensions
+* https://github.com/shikijs/shiki/blob/main/scripts/grammarSources.ts
+  * `` ``` `` 代码高亮支持语言列表
 * `<ul>` 用 `*`
 * `<ol>` 用 `1.`
 * `<hr>` 用 `---`
@@ -84,8 +95,10 @@
 │  │  ├─ images 图片
 │  │  └─ snippets 代码片段
 │  ...
-│  └─ index.md 首页
-└─ package.json
+│  ├─ index.md 首页
+│  └─ memo.md 备忘录
+├─ package.json
+└─ README.md
 ```
 
 ### 标签
