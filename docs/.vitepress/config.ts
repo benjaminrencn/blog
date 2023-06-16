@@ -20,6 +20,7 @@ export default defineConfig({
     ],
     sidebar,
     sidebarMenuLabel: '目录',
+    outline: 'deep',
     outlineTitle: '导航栏',
     editLink: {
       pattern: `${blogRepository}/tree/main/docs/:path`,
