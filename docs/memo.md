@@ -61,6 +61,7 @@
 * 源码 https://github.dev/vuejs/vitepress
   * 默认主题类型 `vuejs/vitepress/types/default-theme.d.ts`
   * `import type { DefaultTheme } from 'vitepress/theme'`
+* `*` 可忽略、非重点、非干货部分，在 sidebar 或标题上使用
 
 ### nav
 
