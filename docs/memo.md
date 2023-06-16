@@ -1,11 +1,13 @@
 # 备忘录 TODO
 
+* ⭐ 可以根据备忘录的[资源](#资源)、[vitepress](#vitepress)、[markdown](#markdown)、[文档](#文档)部分结合按照 [git/commit](#commit) 提交规范的提交记录学习 vitepress 博客搭建过程
+
 ## 资源
 
 ### emoji
 
 * https://github.com/ikatyang/emoji-cheat-sheet
-  * 🚀🎉🏆🔖🏷📔📗📙📘📓✉️✏️📅📎📌✂️🔒🔓🔑🔨🛠🔧🪛⚙️🔗🚫❓❗✔️⭕❌✅❎🚩❤️
+  * 🚀🎉🏆🔖🏷📔📗📙📘📓✉️✏️📅📎📌✂️🔒🔓🔑🔨🛠🔧🪛⚙️🔗🚫❓❗✔️⭕❌✅❎🚩❤️💔⭐
 * https://github.com/markdown-it/markdown-it-emoji/blob/master/lib/data/full.json
   * vitepress markdown extensions 中 emoji 的链接
 
@@ -24,7 +26,7 @@
 * 教程 https://vitepress.dev/guide/getting-started
   * Installation/Setup Wizard 步骤中
     * ::: details `vitepress init`
-      ```shell
+      ```sh {1,9,11,14,17,20,23,28}
       blog % npx vitepress init
 
         vitepress v1.0.0-beta.2
@@ -77,12 +79,17 @@
 * `<hr>` 用 `---`
 * `<h1>` 下面用 `<Badge>` 前中间加 `<hr>`
 * `<a>` `* [📎 name](url)`
+* 图片使用 `<img src alt>` 因为可以改宽高
+* 代码块
+  * 语言 `sh` `js`
+  * 行高亮 ` {1,2}`
+  * 不显示列数 `:no-line-numbers`
 
 ## 文档
 
 ### 目录
 
-```
+```:no-line-numbers
 .
 ├─ docs vitepress 根目录
 │  ├─ .vitepress vitepress 配置目录
@@ -110,7 +117,7 @@
 
 ### config
 
-```shell
+```sh
 git config --global user.name BenjaminRenCN
 git config --global user.email br.github@outlook.com
 git config --global http.sslverify=true
