@@ -8,33 +8,12 @@ export default handleSidebar({
     {
       text: '前端入门',
       items: [
-        { text: 'Index', link: '/netease-study-junior-fe/1' },
+        {
+          text: '第一章 前端技术发展概述',
+          link: '/netease-study-junior-fe/introduction/history'
+        },
       ]
-    },
-    // {
-    //   text: 'HTML',
-    //   items: [
-    //     { text: 'Index', link: '/netease-study-junior-fe/1' },
-    //   ]
-    // },
-    // {
-    //   text: 'CSS',
-    //   items: [
-    //     { text: 'Index', link: '/netease-study-junior-fe/1' },
-    //   ]
-    // },
-    // {
-    //   text: 'JavaScript程序设计',
-    //   items: [
-    //     { text: 'Index', link: '/netease-study-junior-fe/1' },
-    //   ]
-    // },
-    // {
-    //   text: 'DOM编程艺术',
-    //   items: [
-    //     { text: 'Index', link: '/netease-study-junior-fe/1' },
-    //   ]
-    // }
+    }
   ]
 })
 
