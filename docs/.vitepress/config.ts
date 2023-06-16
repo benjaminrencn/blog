@@ -35,5 +35,8 @@ export default defineConfig({
       message: `Released under the <a target="_blank" href="${blogRepository}/blob/main/LICENSE">MIT License</a>.❤️ Powered by VitePress.`,
       copyright: `Copyright © 2023-present ${author}`
     }
+  },
+  markdown: {
+    lineNumbers: true
   }
 })
