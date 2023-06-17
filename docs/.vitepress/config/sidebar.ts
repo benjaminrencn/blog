@@ -9,12 +9,16 @@ export default handleSidebar({
       text: '前端入门',
       items: [
         {
-          text: '* 第一章 前端技术发展概述',
+          text: '第一章 前端技术发展概述 *',
           link: '/netease-study-junior-fe/introduction/history'
         },
         {
-          text: '* 第二章 微专业课程体系概述',
+          text: '第二章 微专业课程体系概述 *',
           link: '/netease-study-junior-fe/introduction/course'
+        },
+        {
+          text: '第三章 前端入门案例 *',
+          link: '/netease-study-junior-fe/introduction/case'
         }
       ]
     }
