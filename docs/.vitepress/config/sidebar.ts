@@ -19,6 +19,10 @@ export default handleSidebar({
         {
           text: '第三章 前端入门案例 *',
           link: '/netease-study-junior-fe/introduction/case'
+        },
+        {
+          text: '第四章 前端开发工具 *',
+          link: '/netease-study-junior-fe/introduction/ide'
         }
       ]
     }

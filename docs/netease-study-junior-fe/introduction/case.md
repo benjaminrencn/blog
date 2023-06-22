@@ -30,7 +30,7 @@
 ## 开发者工具
 
 * Chrome 开发者工具打开方式
-  * `ctrl + shift + i` `command + option + i` `f12`
+  * `command` + `option` + `I` `F12` `Ctrl` + `Shift` + `I`
   * 设置 > 更多工具 > 开发者工具
 * Elements
   * <img src="./assets/case-elements.png" alt="开发者工具 Elements">
@@ -42,7 +42,7 @@
 ## IDE
 
 * WebStorm
-* VS Code
+* VSCode
 * 基础功能
   * 高亮
   * 自动补全
