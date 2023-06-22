@@ -141,5 +141,5 @@ dist
 *.iml
 *.ipr
 
-# VS Code
+# VSCode
 .vscode/
