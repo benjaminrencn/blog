@@ -80,11 +80,15 @@
 * `<hr>` 用 `---`
 * `<h1>` 下面用 `<Badge>` 前中间加 `<hr>`
 * `<a>` `* [📎 name](url)`
-* 图片使用 `<img src alt>` 因为可以改宽高
+* 图片 用 `<img src alt>` 因为可以改宽高，vitepress doc 宽度688px
+* 代码 用<code>``</code>
 * 代码块
   * 语言 `sh` `js`
   * 行高亮 ` {1,2}`
   * 不显示列数 `:no-line-numbers`
+* 步骤 用 `>`
+* 标签 用 vitepress 的 `<Badge type="tip" />`
+  * `前端` `IDE` `WebStorm` `Sublime Text` `VSCode` `html` `css` `less` `sass` `scss` `javascript` `vue` `react`
 
 ## 文档
 
@@ -100,7 +104,7 @@
 │  │  │  └─ sidebar 侧边栏
 │  │  └─ config.js 配置文件
 │  ├─ netease-study-junior-fe 网易云课堂初级级前端开发工程师
-│  │  ├─ images 图片
+│  │  ├─ assets 资源
 │  │  └─ snippets 代码片段
 │  ...
 │  ├─ index.md 首页
@@ -109,11 +113,6 @@
 └─ README.md
 ```
 
-### 标签
-
-* 使用 vitepress 的 `<Badge type="tip" />`
-* 技术 `前端` `html` `css` `less` `sass` `scss` `javascript` `vue` `react`
-
 ## git
 
 ### config
@@ -121,7 +120,7 @@
 ```sh
 git config --global user.name BenjaminRenCN
 git config --global user.email br.github@outlook.com
-git config --global http.sslverify=true
+git config --global http.sslverify true
 ```
 
 ### commit
