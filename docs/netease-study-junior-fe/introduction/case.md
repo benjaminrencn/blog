@@ -6,14 +6,14 @@
 
 ## 开发环境
 
-### 文本编辑器
+### 浏览器
 
 * Internet Explore 💔
 * Apple Safari
 * Mozilla Firefox
 * Google Chrome ❤️
 
-### 浏览器
+### 文本编辑器
 
 * NotePad
 * NotePad++
