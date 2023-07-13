@@ -87,6 +87,20 @@
   * 语言 `sh` `js`
   * 行高亮 ` {1,2}`
   * 不显示列数 `:no-line-numbers`
+* 代码组
+  * 第一个用 js 注释介绍占位节省空间
+  ````md
+  ```js [index.js]
+  /**
+   * html 前端入门案例
+   */
+  ```
+  ````
+  * 使用 snippets
+  ```
+  <<< ./snippets/xx.js
+  ```
+
 * 步骤 用 `>`
 * 标签 用 vitepress 的 `<Badge type="tip" />`
   * `前端` `IDE` `WebStorm` `Sublime Text` `VSCode` `浏览器` `Chrome` `Firefox` `Safari` `IE` `浏览器调试` `移动端调试` `html` `css` `less` `sass` `scss` `javascript` `vue` `react`

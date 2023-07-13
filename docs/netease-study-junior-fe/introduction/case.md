@@ -22,6 +22,12 @@
 ## 页面基本结构
 
 ::: code-group
+```js [index.js]
+/**
+ * html 前端入门案例
+ */
+```
+
 <<< ./snippets/case.html
 :::
 
