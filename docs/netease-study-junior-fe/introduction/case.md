@@ -22,7 +22,7 @@
 ## 页面基本结构
 
 ::: code-group
-```js [index.js]
+```js :no-line-numbers [index.js]
 /**
  * html 前端入门案例
  */

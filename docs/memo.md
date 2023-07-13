@@ -90,7 +90,7 @@
 * 代码组
   * 第一个用 js 注释介绍占位节省空间
   ````md
-  ```js [index.js]
+  ```js :no-line-numbers [index.js]
   /**
    * html 前端入门案例
    */
