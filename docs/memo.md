@@ -1,4 +1,4 @@
-# 备忘录 TODO
+# 备忘录
 
 * ⭐ 可以根据备忘录的[资源](#资源)、[vitepress](#vitepress)、[markdown](#markdown)、[文档](#文档)部分结合按照 [git/commit](#commit) 提交规范的提交记录学习 vitepress 博客搭建过程
 
@@ -7,7 +7,7 @@
 ### emoji
 
 * https://github.com/ikatyang/emoji-cheat-sheet
-  * 🚀🎉🏆🔖🏷📔📗📙📘📓✉️✏️📅📎📌✂️🔒🔓🔑🔨🛠🔧🪛⚙️🔗🚫❓❗✔️⭕❌✅❎🚩❤️💔⭐
+  * 🚀🎉🏆🔖🏷📔📗📙📘📓✉️✏️📅📎📌✂️🔒🔓🔑🔨🛠🔧🪛⚙️🔗🚫❓❗✔️⭕❌✅❎🚩❤️💔⭐💡💣
 * https://github.com/markdown-it/markdown-it-emoji/blob/master/lib/data/full.json
   * vitepress markdown extensions 中 emoji 的链接
 
@@ -75,6 +75,7 @@
   * VitePress Markdown Extensions
 * https://github.com/shikijs/shiki/blob/main/scripts/grammarSources.ts
   * `` ``` `` 代码高亮支持语言列表
+* `<strong>` 用 `**`
 * `<ul>` 用 `*`
 * `<ol>` 用 `1.`
 * `<hr>` 用 `---`
@@ -88,7 +89,7 @@
   * 不显示列数 `:no-line-numbers`
 * 步骤 用 `>`
 * 标签 用 vitepress 的 `<Badge type="tip" />`
-  * `前端` `IDE` `WebStorm` `Sublime Text` `VSCode` `html` `css` `less` `sass` `scss` `javascript` `vue` `react`
+  * `前端` `IDE` `WebStorm` `Sublime Text` `VSCode` `浏览器` `Chrome` `Firefox` `Safari` `IE` `浏览器调试` `移动端调试` `html` `css` `less` `sass` `scss` `javascript` `vue` `react`
 
 ## 文档
 
@@ -134,3 +135,10 @@ git config --global http.sslverify true
 * `[blog/index]` 首页
 * `[netease-study-junior-fe]` 网易云课堂 初级级前端开发工程师
 * `[netease-study-senior-fe]` 网易云课堂 高级前端开发工程师
+
+## TODO
+
+* [📎 网易云课堂 初级级前端开发工程师 TODO](./netease-study-junior-fe/index#todo)
+* vitepress markdown 公共样式修改
+  * h3 margin-bottom
+* vitepress 图片预览
