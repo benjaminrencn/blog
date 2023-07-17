@@ -37,7 +37,7 @@
 <html> <!-- 根元素 -->
 <head> <!-- 文档头部 -->
   <meta charset="utf-8">
-  <title-网易云音乐 听见好时光</title>
+  <title>网易云音乐 听见好时光</title>
   <meta name="keywords" content="音乐...">
   <meta name="description" content="网易...">
   <meta name="viewport" content="width=device-width">
@@ -100,4 +100,4 @@
 ```
 :::
 
-<img src="./assets/html-test.png" width="260" alt="HTML 简介 课后练习">
+<img src="assets/introduction-test.png" width="260" alt="HTML 简介 课后练习">

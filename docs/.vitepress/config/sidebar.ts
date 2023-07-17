@@ -34,7 +34,7 @@ export default handleSidebar({
       text: 'HTML',
       items: [
         {
-          text: '第一章 HTML 简介',
+          text: '第一章 HTML 简介 *',
           link: '/netease-study-junior-fe/html/introduction'
         },
         {
