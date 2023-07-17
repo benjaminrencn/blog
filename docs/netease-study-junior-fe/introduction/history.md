@@ -9,7 +9,7 @@
 * **1990s html**
   * 标签组成
   * 国内拨号上网，昂贵、不普及，只在教育行业、政府部门
-* **1995 css（排版） js（交互）**
+* **1995 css(排版) js(交互)**
 * **1997 中国互联网起步**，网易成立
 * **2000s** 宽带普及，互联网企业崛起 🚀
   * 门户
@@ -22,7 +22,7 @@
 * **2005 AJAX/AJAJ/AFLAX** **flash**
   * Google、Yahoo
   * 异步数据通信、局部页面刷新
-  * X 数据格式使用 XML（解析、传输开销大），改用 JSON
+  * X 数据格式使用 XML(解析、传输开销大)，改用 JSON
   * 邮箱、地图
 * **Web1.0 (HTML,PORTALS)**
   * 用户接收信息、网站管理员发布信息
@@ -68,7 +68,7 @@
   * Prototype、jQuery、MooTools、Dojo、modernizr...
 * UI 组件化
   * Bindows、YUI、jQueryUI、Ext、Bootstrap、SemanticUI...
-* 分层模块化（MVC、MVVM）
+* 分层模块化(MVC、MVVM)
   * JavascriptMVC、Backbone、Knockout、Vue、EmberJS、Angular、React...
 * 前后端分离
   * 专注
@@ -89,4 +89,3 @@
     * NativeApp 嵌套 Lua环境 通过适配层 Adapter 调用原生
     * DSL编译成Android、iOS代码
     * PhoneGap、Xamarin、titanium appcelerator、React Native、Ionic、Onsen UI
-

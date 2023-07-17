@@ -29,6 +29,23 @@ export default handleSidebar({
           link: '/netease-study-junior-fe/introduction/dev-tools'
         }
       ]
+    },
+    {
+      text: 'HTML',
+      items: [
+        {
+          text: '第一章 HTML 简介',
+          link: '/netease-study-junior-fe/html/introduction'
+        },
+        {
+          text: '第二章 HTML 语法',
+          link: '/netease-study-junior-fe/html/grammar'
+        },
+        {
+          text: '第三章 HTML 元素',
+          link: '/netease-study-junior-fe/html/element'
+        },
+      ]
     }
   ]
 })

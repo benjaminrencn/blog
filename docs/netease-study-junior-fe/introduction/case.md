@@ -24,7 +24,7 @@
 ::: code-group
 ```js :no-line-numbers [index.js]
 /**
- * html 前端入门案例
+ * 前端入门案例
  */
 ```
 

@@ -11,3 +11,5 @@
 ## 备忘录 {#todo}
 
 * [📎 Emmt](https://docs.emmet.io/)
+* viewport
+* css 颜色缩写 #999 是不是 #999999
