@@ -75,6 +75,7 @@
   * VitePress Markdown Extensions
 * https://github.com/shikijs/shiki/blob/main/scripts/grammarSources.ts
   * `` ``` `` 代码高亮支持语言列表
+* 使用英文括号 `()`
 * `<strong>` 用 `**`
 * `<ul>` 用 `*`
 * `<ol>` 用 `1.`
@@ -97,10 +98,10 @@
   ```
   ````
   * 使用 snippets
+    * 超过20行代码，可以使用
   ```
   <<< ./snippets/xx.js
   ```
-
 * 步骤 用 `>`
 * 标签 用 vitepress 的 `<Badge type="tip" />`
   * `前端` `IDE` `WebStorm` `Sublime Text` `VSCode` `浏览器` `Chrome` `Firefox` `Safari` `IE` `浏览器调试` `移动端调试` `html` `css` `less` `sass` `scss` `javascript` `vue` `react`
@@ -130,14 +131,6 @@
 
 ## git
 
-### config
-
-```sh
-git config --global user.name BenjaminRenCN
-git config --global user.email br.github@outlook.com
-git config --global http.sslverify true
-```
-
 ### commit
 
 * `[gitignore]` gitignore
@@ -156,3 +149,4 @@ git config --global http.sslverify true
 * vitepress markdown 公共样式修改
   * h3 margin-bottom
 * vitepress 图片预览
+* lerna
