@@ -53,7 +53,7 @@ export default handleSidebar({
               link: '/netease-study-junior-fe/html/element/title'
             },
             {
-              text: '第三节 元数据',
+              text: '第三节 元数据 ✏️',
               link: '/netease-study-junior-fe/html/element/meta'
             },
             {

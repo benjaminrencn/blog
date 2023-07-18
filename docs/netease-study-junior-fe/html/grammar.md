@@ -114,7 +114,7 @@
  */
 ```
 ``` html [index.html]
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -129,5 +129,5 @@
 ```
 :::
 
-<img src="assets/grammar-test-1.png" width="80" alt="HTML 语法 课后练习">
-<img src="assets/grammar-test-2.png" width="80" alt="HTML 语法 课后练习">
+<img src="./assets/grammar-test-1.png" width="80" alt="HTML 语法 课后练习">
+<img src="./assets/grammar-test-2.png" width="80" alt="HTML 语法 课后练习">

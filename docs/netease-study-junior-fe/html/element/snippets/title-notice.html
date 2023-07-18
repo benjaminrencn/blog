@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>我的第一个页面</title>
+  <script>
+    var notice = '【收到6条新消息】'; // 消息
+    var index = 0; // 索引
+    var title = '我的第一个网页'; // 默认标题
+    var timer = setInterval(function () { // 定时器
+      if (index >= notice.length) { // 索引大于消息长度 则 使用默认标题并清除定时器 否则 默认标题前拼接部分消息
+        document.title = title;
+        clearInterval(timer);
+      } else {
+        document.title = notice.slice(index++) + title;
+      }
+    }, 1000);
+  </script>
+</head>
+<body>
+  <h1>我的第一个页面</h1>
+</body>
+</html>

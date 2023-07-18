@@ -87,7 +87,7 @@
  */
 ```
 ``` html [index.html]
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -100,4 +100,4 @@
 ```
 :::
 
-<img src="assets/introduction-test.png" width="260" alt="HTML 简介 课后练习">
+<img src="./assets/introduction-test.png" width="260" alt="HTML 简介 课后练习">

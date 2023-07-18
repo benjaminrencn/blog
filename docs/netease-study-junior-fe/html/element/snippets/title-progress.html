@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>我的第一个页面</title>
+  <script>
+    var percent = 0; // 百分比
+    var title = '我的第一个网页'; // 默认标题
+    var timer = setInterval(function () { // 定时器
+      if (percent >= 100) { // 百分比大于100 则 使用默认标题并清除定时器 否则 默认标题前拼接百分比并递增
+        document.title = title;
+        clearInterval(timer);
+      } else {
+        document.title = '[' + percent++ + '%]' + title;
+      }
+    }, 1000);
+  </script>
+</head>
+<body>
+  <h1>我的第一个页面</h1>
+</body>
+</html>
