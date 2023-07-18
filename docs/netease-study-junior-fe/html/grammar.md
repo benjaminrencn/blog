@@ -104,3 +104,30 @@
   * `&lt;` `&#60;` <
   * `&copy;` `&#169;` ©
   * `&amp;` `&#38;` &
+
+## 课后练习
+
+::: code-group
+```js :no-line-numbers [index.js]
+/**
+ * 课后练习
+ */
+```
+``` html [index.html]
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>HTML 语法</title>
+</head>
+<body>
+  <button>button</button>
+  <p>这是注释</p> // [!code --]
+  <!-- <p>这是注释</p> --> // [!code ++]
+</body>
+</html>
+```
+:::
+
+<img src="assets/grammar-test-1.png" width="80" alt="HTML 语法 课后练习">
+<img src="assets/grammar-test-2.png" width="80" alt="HTML 语法 课后练习">

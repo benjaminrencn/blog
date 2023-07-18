@@ -91,7 +91,7 @@
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>HTML简介</title>
+  <title>HTML 简介</title>
 </head>
 <body>
   <h1>Hello World!</h1>
