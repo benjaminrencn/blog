@@ -43,7 +43,28 @@ export default handleSidebar({
         },
         {
           text: '第三章 HTML 元素',
-          link: '/netease-study-junior-fe/html/element'
+          items: [
+            {
+              text: '第一节 元素分类',
+              link: '/netease-study-junior-fe/html/element/element'
+            },
+            {
+              text: '第二节 文档标题',
+              link: '/netease-study-junior-fe/html/element/title'
+            },
+            {
+              text: '第三节 元数据',
+              link: '/netease-study-junior-fe/html/element/meta'
+            },
+            {
+              text: '第四节 插入样式',
+              link: '/netease-study-junior-fe/html/element/style'
+            },
+            {
+              text: '第五节 插入脚本',
+              link: '/netease-study-junior-fe/html/element/script'
+            }
+          ]
         },
       ]
     }
