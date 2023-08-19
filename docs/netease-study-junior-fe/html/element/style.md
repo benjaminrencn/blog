@@ -39,7 +39,7 @@
   ```css [style.css]
   p{font-size: 14px; text-align: left}
   ```
-  ``` html [index.html]
+  ```html [index.html]
   <link rel="stylesheet" href="style.css">
   ```
   :::
@@ -85,7 +85,7 @@
 ```
 
 <<< ./snippets/media/media.html
-<<< ./snippets/media/horizontal.css
+<<< ./snippets/media/style.css
 <<< ./snippets/media/print.css
 :::
 

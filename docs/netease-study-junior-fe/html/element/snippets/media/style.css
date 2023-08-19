@@ -1,0 +1,24 @@
+body {
+  position: relative;
+  margin: 0;
+}
+/* 第四节 插入样式 课后练习 */
+aside {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+}
+section {
+  margin-left: 200px;
+}
+/* 第五节 插入脚本 课后练习  */
+.aside-horizontal {
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.section-horizontal {
+  margin-left: 0;
+  height: auto;
+}

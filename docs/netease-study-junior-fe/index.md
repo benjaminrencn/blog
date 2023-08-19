@@ -12,4 +12,8 @@
 
 * [📎 Emmt](https://docs.emmet.io/)
 * viewport
-* css 颜色缩写 #999 是不是 #999999
+* css 颜色 `#999` 是 `#999999` 缩写还是一位16进制表示颜色❓
+  * [📎 CSS `<color>`](https://developer.mozilla.org/zh-CN/docs/Web/CSS/color_value) 语法 > RGB 颜色
+  * `#RGB` 是 `#RRGGBB` 的缩写
+  * `#RGBA` 是 `#RRGGBBAA` 的缩写
+* `<script type="text/×-handlebars-template">`

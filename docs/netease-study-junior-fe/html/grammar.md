@@ -12,7 +12,7 @@
  * HTML 语法实例
  */
 ```
-``` html [index.html]
+```html [index.html]
 <!DOCTYPE html>
 <html>
 <head>
@@ -113,7 +113,7 @@
  * 课后练习
  */
 ```
-``` html [index.html]
+```html [index.html]
 <!DOCTYPE html>
 <html>
 <head>

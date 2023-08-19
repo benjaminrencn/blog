@@ -32,7 +32,7 @@
  * 文档结构
  */
 ```
-``` html [index.html]
+```html [index.html]
 <!DOCTYPE html> <!-- 文档声明 -->
 <html> <!-- 根元素 -->
 <head> <!-- 文档头部 -->
@@ -86,7 +86,7 @@
  * 课后练习
  */
 ```
-``` html [index.html]
+```html [index.html]
 <!DOCTYPE html>
 <html>
 <head>
