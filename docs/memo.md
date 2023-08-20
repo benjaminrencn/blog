@@ -148,5 +148,6 @@
 * [📎 网易云课堂 初级级前端开发工程师 TODO](./netease-study-junior-fe/index#todo)
 * vitepress markdown 公共样式修改
   * h3 margin-bottom
+  * .vp-doc strong 加 text-decoration: underline;
 * vitepress 图片预览
 * lerna

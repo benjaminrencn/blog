@@ -63,6 +63,10 @@ export default handleSidebar({
             {
               text: '第五节 插入脚本',
               link: '/netease-study-junior-fe/html/element/script'
+            },
+            {
+              text: '第六节 内容分区元素',
+              link: '/netease-study-junior-fe/html/element/section'
             }
           ]
         },
