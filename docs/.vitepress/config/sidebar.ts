@@ -67,6 +67,10 @@ export default handleSidebar({
             {
               text: '第六节 内容分区元素',
               link: '/netease-study-junior-fe/html/element/section'
+            },
+            {
+              text: '第七节 超链接',
+              link: '/netease-study-junior-fe/html/element/link'
             }
           ]
         },

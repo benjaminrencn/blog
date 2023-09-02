@@ -35,6 +35,7 @@
 ### 外联样式表 (External Style Sheet)
 
 * `<link>`
+
   ::: code-group
   ```css [style.css]
   p{font-size: 14px; text-align: left}
