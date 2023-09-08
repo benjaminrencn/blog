@@ -75,6 +75,10 @@ export default handleSidebar({
             {
               text: '第八节 文本元素',
               link: '/netease-study-junior-fe/html/element/text'
+            },
+            {
+              text: '第九节 列表元素',
+              link: '/netease-study-junior-fe/html/element/list'
             }
           ]
         },
