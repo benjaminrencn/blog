@@ -1,7 +1,7 @@
 // https://vitepress.dev/reference/default-theme-nav
 export default [
   {
-    text: '笔记',
+    text: '前端',
     items: [
       {
         text: '课程笔记',
@@ -11,5 +11,17 @@ export default [
       }
     ],
     activeMatch: '/netease-study-junior-fe/'
+  },
+  {
+    text: '鸿蒙',
+    items: [
+      {
+        text: '课程笔记',
+        items: [
+          { text: '华为开发者联盟 HarmonyOS NEXT Codelabs', link: '/harmonyos-developer-codelabs/', activeMatch: '/harmonyos-developer-codelabs/' }
+        ]
+      }
+    ],
+    activeMatch: '/harmonyos-developer-codelabs/'
   }
 ]

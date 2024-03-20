@@ -105,6 +105,7 @@
 * 步骤 用 `>`
 * 标签 用 vitepress 的 `<Badge type="tip" />`
   * `前端` `IDE` `WebStorm` `Sublime Text` `VSCode` `浏览器` `Chrome` `Firefox` `Safari` `IE` `浏览器调试` `移动端调试` `html` `css` `less` `sass` `scss` `javascript` `vue` `react`
+  * `鸿蒙`
 
 ## 文档
 
@@ -142,6 +143,9 @@
 * `[blog/index]` 首页
 * `[netease-study-junior-fe]` 网易云课堂 初级级前端开发工程师
 * `[netease-study-senior-fe]` 网易云课堂 高级前端开发工程师
+* `[harmonyos-developer-guides]` 华为开发者联盟 HarmonyOS NEXT 指南
+* `[harmonyos-developer-video-courses]` 华为开发者联盟 HarmonyOS NEXT 视频课程
+* `[harmonyos-developer-codelabs]` 华为开发者联盟 HarmonyOS NEXT Codelabs
 
 ## TODO
 
