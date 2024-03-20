@@ -52,7 +52,7 @@
 * 属性值一般用 `"` 包括
   * 若值中有 `空格` `'` `"` <code>\`</code> `=` `<` `>` 必须用引号包括
 
-#### [🔗 布尔属性](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Attributes#%E5%B8%83%E5%B0%94%E5%B1%9E%E6%80%A7)
+#### [📎 布尔属性](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Attributes#%E5%B8%83%E5%B0%94%E5%B1%9E%E6%80%A7)
 
 ```html
 <button disabled>按钮</button>
@@ -80,7 +80,7 @@
 * 浏览器不渲染，用户不可见
 * 用于描述代码
 
-## [🔗 全局属性](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Global_attributes)
+## [📎 全局属性](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Global_attributes)
 
 * 对所有元素有效
 * `id` 唯一标识符
@@ -91,7 +91,7 @@
   * 鼠标移动上去会显示信息
 * `accesskey` `contenteditable` `dir` `draggable` `hidden` `lang` `spellcheck` `tabindex` `translate`
 
-## [🔗 实体字符](https://developer.mozilla.org/zh-CN/docs/Glossary/Entity)
+## [📎 实体字符](https://developer.mozilla.org/zh-CN/docs/Glossary/Entity)
 
 * `&` + 实体名称 + `;`
 * `&#` + 实体编号 + `;`
