@@ -73,7 +73,7 @@
   * GitHub Flavored Markdown Spec
 * https://vitepress.dev/guide/markdown
   * VitePress Markdown Extensions
-* https://github.com/shikijs/shiki/blob/main/scripts/grammarSources.ts
+* ~~https://github.com/shikijs/shiki/blob/main/scripts/grammarSources.ts~~
   * `` ``` `` 代码高亮支持语言列表
 * 使用英文括号 `()`
 * `<strong>` 用 `**`
