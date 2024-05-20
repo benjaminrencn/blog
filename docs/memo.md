@@ -105,7 +105,7 @@
 * 步骤 用 `>`
 * 标签 用 vitepress 的 `<Badge type="tip" />`
   * `前端` `IDE` `WebStorm` `Sublime Text` `VSCode` `浏览器` `Chrome` `Firefox` `Safari` `IE` `浏览器调试` `移动端调试` `html` `css` `less` `sass` `scss` `javascript` `vue` `react`
-  * `鸿蒙`
+  * `鸿蒙` `DevEco Studio` `ArkTs` `WebView` `JSBridge 桥接`
 
 ## 文档
 

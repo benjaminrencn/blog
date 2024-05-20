@@ -84,6 +84,21 @@ export default handleSidebar({
         },
       ]
     }
+  ],
+  '/harmonyos-developer-codelabs/': [
+    {
+      text: '华为开发者联盟 HarmonyOS NEXT Codelabs',
+      link: '/harmonyos-developer-codelabs/'
+    },
+    {
+      text: '优秀实践',
+      items: [
+        {
+          text: 'ArkTS与H5的交互',
+          link: '/harmonyos-developer-codelabs/ark-web-select-contact'
+        }
+      ]
+    }
   ]
 })
 
