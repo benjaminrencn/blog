@@ -6,18 +6,18 @@
 
 ## 开发环境
 
+### 文本编辑器
+
+* NotePad
+* NotePad++
+* Sublime Text
+
 ### 浏览器
 
 * Internet Explore 💔
 * Apple Safari
 * Mozilla Firefox
 * Google Chrome ❤️
-
-### 文本编辑器
-
-* NotePad
-* NotePad++
-* Sublime Text
 
 ## 页面基本结构
 

@@ -83,11 +83,17 @@
 * 查找文件 `Shfit` + `Shift`
 * 查找定义、引用 `command` / `Ctrl` + 鼠标指向对应代码
 * 新起一行 `Shift` + `Enter`
-* 列操作 (`shift` + `option`) / `Alt` + 鼠标拖动
+* 列操作 `shift` + `option` / `Alt` + 鼠标拖动
   * `Esc` 退出列操作
 * 注释 `command` / `Ctrl` + `/`
 * 多行注释 `control` / `Ctrl` + `Shift` + `/`
 * 格式化代码 (`option` + `command`) / (`Ctrl` + `Alt`) + `L`
+* 新建文件、目录 `command` / `Ctrl` + `N`
+* 键盘移动、选择 (`↑` / `↓` / `←` / `→`) + (`option` / `Ctrl` / `command`) + `Shift`
+* 复制一行 `command` / `Ctrl` + `D`
+* 删除一行 `command` / `Ctrl` + `X`
+* Emmet 语法 `Tab`
+* 移动代码 `command` / `Alt` + `Shift` + `↑` / `↓`
 
 ### 语法高亮
 
@@ -105,15 +111,6 @@
 
 <img src="./assets/webstorm-cvs-1.png" width="240" alt="WebStorm 设置版本管理 changes">
 <img src="./assets/webstorm-cvs-2.png" alt="WebStorm 设置版本管理 log">
-
-### 基本操作
-
-* 新建文件、目录 `command` / `Ctrl` + `N` 
-* 键盘移动、选择 (`↑` / `↓` / `←` / `→`) + (`option` / `Ctrl` / `command`) + `Shift`
-* 复制一行 `command` / `Ctrl` + `D`
-* 删除一行 `command` / `Ctrl` + `X`
-* Emmet 语法 `Tab`
-* 移动代码 `command` / `Alt` + `Shift` + `↑` / `↓`
 
 ### 其他功能
 

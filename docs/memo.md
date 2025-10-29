@@ -8,7 +8,7 @@
 
 * https://github.com/ikatyang/emoji-cheat-sheet
   * 🚀🎉🏆🔖🏷📔📗📙📘📓✉️✏️📅📎📌✂️🔒🔓🔑🔨🛠🔧🪛⚙️🔗🚫❓❗✔️⭕❌✅❎🚩❤️💔⭐💡💣
-* https://github.com/markdown-it/markdown-it-emoji/blob/master/lib/data/full.json
+* https://github.com/markdown-it/markdown-it-emoji/blob/master/lib/data/full.mjs
   * vitepress markdown extensions 中 emoji 的链接
 
 ### 音视频转文字 AI
