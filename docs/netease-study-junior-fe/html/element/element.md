@@ -56,7 +56,7 @@
 
 ## 交互
 
-* `<details>``<summary>``<dialog>`
+* `<details>` `<summary>` `<dialog>`
 * 创建交互式用户界面对象
 
 ## 编辑

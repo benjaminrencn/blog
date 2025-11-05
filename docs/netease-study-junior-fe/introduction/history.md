@@ -25,7 +25,7 @@
     * Web 服务器的技术 `JSP` `ASP` `PHP`，
     * 数据层、表示层代码混在一起
     * `MVC Template` 等技术进行代码分层，为后续前后端分离做准备
-    * <img src="./assets/mvc.png" width="300" alt="mvc 模型">
+    * <img src="./assets/mvc.png" width="300" alt="mvc 模型" title="mvc 模型">
 * **2005 AJAX/AJAJ/AFLAX** **flash**
   * Google、Yahoo
   * 异步数据通信、局部页面刷新
@@ -44,7 +44,7 @@
   * 2010 网易微博
 * **2007 国内前端工程师独立出来 🏆**
 * WebApp SPA 单页系统架构
-  * <img src="./assets/webApp.png" width="400" alt="WebApp SPA 单页系统架构">
+  * <img src="./assets/webApp.png" width="400" alt="WebApp SPA 单页系统架构" title="WebApp SPA 单页系统架构">
 * 运行环境 浏览器
   * Internet Explorer 💔
   * Safari

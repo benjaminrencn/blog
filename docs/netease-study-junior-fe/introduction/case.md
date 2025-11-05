@@ -31,7 +31,7 @@
 <<< ./snippets/case.html
 :::
 
-<img src="./assets/case-html.png" width="320" alt="页面浏览器结果">
+<img src="./assets/case-html.png" width="320" alt="页面浏览器结果" title="页面浏览器结果">
 
 ## 开发者工具
 
@@ -39,10 +39,10 @@
   * `command` + `option` + `I` `F12` `Ctrl` + `Shift` + `I`
   * 设置 > 更多工具 > 开发者工具
 * Elements
-  * <img src="./assets/case-elements.png" alt="开发者工具 Elements">
+  * <img src="./assets/case-elements.png" alt="开发者工具 Elements" title="开发者工具 Elements">
   * 查看 DOM 树结构，修改样式、类。查看盒模型、样式计算结果、DOM属性
 * Sources
-  * <img src="./assets/case-sources.png" alt="开发者工具 Sources">
+  * <img src="./assets/case-sources.png" alt="开发者工具 Sources" title="开发者工具 Sources">
   * 查看脚本，打断点调试，查看对应作用域的变量、调用栈
 
 ## IDE

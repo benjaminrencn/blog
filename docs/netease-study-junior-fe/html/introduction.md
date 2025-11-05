@@ -13,9 +13,9 @@
 ## 发展史
 
 * **1991 HTML**
-  * [📎 蒂姆·伯纳斯-李](https://zh.wikipedia.org/wiki/%E8%92%82%E5%A7%86%C2%B7%E4%BC%AF%E7%BA%B3%E6%96%AF-%E6%9D%8E)写了 HTML Tags 文档，描述了18个元素
+  * [📎 蒂姆·伯纳斯-李](https://zh.wikipedia.org/wiki/%E8%92%82%E5%A7%86%C2%B7%E4%BC%AF%E7%BA%B3%E6%96%AF-%E6%9D%8E)写了 HTML Tags 文档，描述了18-20个元素
 * **1995 HTML 2.0**
-  * IETF
+  * 互联网工程任务组(IETF) 发布
   * 之后由 万维网联盟(W3C) 维护
 * **1999 HTML 4.01**
   * W3C 认为 HTML 语法松散，推出语法严格的 XHTML
@@ -100,4 +100,4 @@
 ```
 :::
 
-<img src="./assets/introduction-test.png" width="260" alt="HTML 简介 课后练习">
+<img src="./assets/introduction-test.png" width="260" alt="HTML 简介 课后练习" title="HTML 简介 课后练习">

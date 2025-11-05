@@ -43,19 +43,33 @@
   <<< ./snippets/a/a-inner.html
   :::
 
-  <img src="assets/a-anchor.png" width="280" alt="a 锚点">
+  <img src="assets/a-anchor.png" width="280" alt="a 锚点" title="a 锚点">
 
   * Email 地址
     * `<a href="mailto:yixinplus@188.com">联系我们</a>`
     * `<a href="mailto:yixinplus@188.com?cc=admin@188.com&subject=建议&body=body...">联系我们</a>`
   * 电话号码
     * `<a href="tel:13612345678">13612345678</a>`
+    ::: code-group
+    ```js :no-line-numbers [index.js]
+    /**
+     * <a> href 链接到 email、电话号码
+     */
+    ```
+    
+    <<< ./snippets/a/a-email.html
+    :::
+
+    <img src="assets/a-email.png" width="200" alt="a href 链接到 email、电话号码" title="a href 链接到 email、电话号码">
+    <img src="assets/a-email-email.png" width="200" alt="a 链接到 email" title="a 链接到 email">
+    <img src="assets/a-email-params.png" width="200" alt="a 带参数链接到 email" title="a 带参数链接到 email">
+    <img src="assets/a-telephone.png" width="380" alt="a 链接到电话号码" title="a 链接到电话号码">
 * `target`
   * 在何处显示
-  * `self` 当前页面打开
+  * `_self` 当前页面打开
   * `_blank` 新标签页打开
   * `_parent` 父级浏览环境打开
-  * `top` 顶级浏览环境打开
+  * `_top` 顶级浏览环境打开
   * 浏览环境名称
   ::: code-group
   ```js :no-line-numbers [index.js]
@@ -72,12 +86,31 @@
   <<< ./snippets/a/site/frameb.html [site/frameb.html]
   :::
 
-  <img src="assets/a-target.png" width="420" alt="a target 属性">
-
+  <img src="assets/a-target.png" width="420" alt="a target 属性" title="a target 属性">
+  <img src="assets/a-self.png" width="420" alt="a target _self" title="a target _self">
+  <img src="assets/a-blank.png" width="420" alt="a target _blank" title="a target _blank">
+  <img src="assets/a-inner.png" width="420" alt="a target name" title="a target name">
+  <img src="assets/a-top.png" width="420" alt="a target _top" title="a target _top">
+  <img src="assets/a-parent.png" width="420" alt="a target _parent" title="a target _parent">
 * `download`
   * 下载
   * 值是下载文件的建议名称，同域名下可以重命名，跨域时不能重命名
   * `<a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf" download="VsCode.pdf">vsCode快捷键（跨域重命名)</a>`
+  ::: code-group
+  ```js :no-line-numbers [index.js]
+  /**
+   * <a> download 属性
+   */
+  ```
+
+  <<< ./snippets/a/a-download.html
+  :::
+
+  * ❓预期跨域下载不能重命名但是测试时现象是浏览器打开pdf
+    <img src="assets/a-download.png" width="420" alt="a download 属性" title="a download 属性">
+    <img src="assets/a-download-no.png" alt="a 无 download" title="a 无 download">
+    <img src="assets/a-download-download.png" width="420" alt="a download 有无值" title="a download 有无值">
+    <img src="assets/a-download-cross-origin.png" alt="a download 跨域" title="a download 跨域">
 * `hreflang` 语言
 * `rel` 当前文档与被链接文档的关系
 * `rev` 被链接文档与当前文档的关系

@@ -60,19 +60,19 @@ document.write('<p>Hello World !</p>');
     * `&lt;/script>` 用实体字符代替
   * `module`
     * ES6 引入模块化
-    ```js
-    // api.js
+    ::: code-group
+    ```js [api.js]
     export function test() { console.log('test'); }
     export function greet(msg) { console.log(msg); }
     ```
-    ```html
-    <!-- index.html -->
+    ```html [index.html]
     <script type="module">
       import { test, greet } from "/api.js";
       greet('Hello World !');
       test();
     </script>
     ```
+    :::
   * `type` 设置成 javascript 叫 Classic Script 传统脚本
   * 设置成 `module` 叫 Module Script 模块化脚本
 * `<scirpt>` 标签间的内容块
@@ -104,11 +104,11 @@ document.write('<p>Hello World !</p>');
   * `defer` HTML 解析完成后执行
   * `async` `defer` 同时设置，优先执行 `async`
   * `<script>`
-    <img src="assets/script-load.png" width="420" alt="script 解析过程">
+    <img src="assets/script-load.png" width="420" alt="script 解析过程" title="script 解析过程">
   * `<script defer>`
-    <img src="assets/script-defer.png" width="420" alt="script defer 解析过程">
+    <img src="assets/script-defer.png" width="420" alt="script defer 解析过程" title="script defer 解析过程">
   * `<script async>`
-    <img src="assets/script-async.png" width="420" alt="script async 解析过程">
+    <img src="assets/script-async.png" width="420" alt="script async 解析过程" title="script async 解析过程">
   * `crossorigin`
     * 传统脚本
       * 是否走 CORS 流程
@@ -140,5 +140,5 @@ document.write('<p>Hello World !</p>');
 <<< ./snippets/media/script.js
 :::
 
-<img src="assets/script-responsive-1.png" width="280" alt="插入脚本 课后练习">
-<img src="assets/script-responsive-2.png" width="280" alt="插入脚本 课后练习">
+<img src="assets/script-responsive-1.png" width="280" alt="插入脚本 课后练习" title="插入脚本 课后练习">
+<img src="assets/script-responsive-2.png" width="280" alt="插入脚本 课后练习" title="插入脚本 课后练习">

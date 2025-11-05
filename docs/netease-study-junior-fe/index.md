@@ -17,3 +17,5 @@
   * `#RGB` 是 `#RRGGBB` 的缩写
   * `#RGBA` 是 `#RRGGBBAA` 的缩写
 * `<script type="text/×-handlebars-template">`
+* `<a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf" download="VsCode.pdf">vsCode快捷键（跨域重命名)</a>`
+  * 预期跨域下载不能重命名但是测试时现象是浏览器打开pdf

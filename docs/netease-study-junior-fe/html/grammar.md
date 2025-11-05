@@ -29,7 +29,7 @@
 
 ### 结构
 
-* 开始标签 + 元素内容 + 结束标签
+* `<` 元素内容 `>`
 * **大部分**HTML 元素有开始标签、结束标签
   * 开始标签、结束标签在一对尖括号 `<>` 中间
   * 结束标签在标签名前加斜杠 `/`
@@ -76,7 +76,7 @@
 <!-- 这是注释 -->
 ```
 
-* <code>\<!--</code> + 注释内容 + <code>--\></code>
+* <code>\<!--</code> 注释内容 <code>--\></code>
 * 浏览器不渲染，用户不可见
 * 用于描述代码
 
@@ -93,8 +93,8 @@
 
 ## [📎 实体字符](https://developer.mozilla.org/zh-CN/docs/Glossary/Entity)
 
-* `&` + 实体名称 + `;`
-* `&#` + 实体编号 + `;`
+* `&` 实体名称 `;`
+* `&#` 实体编号 `;`
   * 实体名称大小写敏感
 * 用于表示保留字符(会被解析为 HTML 代码)和不可见字符(如空格)
 * 常用实体
@@ -129,5 +129,5 @@
 ```
 :::
 
-<img src="./assets/grammar-test-1.png" width="80" alt="HTML 语法 课后练习">
-<img src="./assets/grammar-test-2.png" width="80" alt="HTML 语法 课后练习">
+<img src="./assets/grammar-test-1.png" width="80" alt="HTML 语法 课后练习" title="HTML 语法 课后练习">
+<img src="./assets/grammar-test-2.png" width="80" alt="HTML 语法 课后练习" title="HTML 语法 课后练习">

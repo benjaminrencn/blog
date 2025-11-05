@@ -41,7 +41,7 @@
 
 * 需要打开设置的 `Appearance & Behavior` > `New UI` > `Enable New UI`
 
-<img src="./assets/webstorm-body.png" alt="WebStorm 主界面">
+<img src="./assets/webstorm-body.png" alt="WebStorm 主界面" title="WebStorm 主界面">
 
 ### 设置
 
@@ -51,32 +51,32 @@
 * `command` + `,`
 * `Ctrl` + `Alt` + `S` 
 
-<img src="./assets/webstorm-settings-menu.png" width="180" alt="WebStorm 设置">
-<img src="./assets/webstorm-settings.png" alt="WebStorm 设置">
+<img src="./assets/webstorm-settings-menu.png" width="180" alt="WebStorm 设置" title="WebStorm 设置">
+<img src="./assets/webstorm-settings.png" alt="WebStorm 设置" title="WebStorm 设置">
 
 #### 主题
 
 * `Settings...` > `Appearance & Behavior` > `Appearance` > `Theme`
 
-<img src="./assets/webstorm-theme.png" width="340" alt="WebStorm 设置主题">
+<img src="./assets/webstorm-theme.png" width="340" alt="WebStorm 设置主题" title="WebStorm 设置主题">
 
 #### 字体、大小
 
 * `Settings...` > `Editor` > `Font`
 
-<img src="./assets/webstorm-font.png" width="440" alt="WebStorm 设置字体大小">
+<img src="./assets/webstorm-font.png" width="440" alt="WebStorm 设置字体大小" title="WebStorm 设置字体大小">
 
 #### 快捷键
 
 * `Settings...` > `Keymap`
 
-<img src="./assets/webstorm-keymap.png" width="640" alt="WebStorm 设置快捷键">
+<img src="./assets/webstorm-keymap.png" width="640" alt="WebStorm 设置快捷键" title="WebStorm 设置快捷键">
 
 #### 插件
 
 * `Settings...` > `Plugins`
 
-<img src="./assets/webstorm-plugins.png" alt="WebStorm 插件">
+<img src="./assets/webstorm-plugins.png" alt="WebStorm 插件" title="WebStorm 插件">
 
 ### 快捷操作
 
@@ -105,12 +105,12 @@
 
 * `Settings...` > `Editor` > `Plugins`
 
-<img src="./assets/webstorm-live-template.png" alt="WebStorm 设置 Live Templates">
+<img src="./assets/webstorm-live-template.png" alt="WebStorm 设置 Live Templates" title="WebStorm 设置 Live Templates">
 
 ### 版本管理 ⭐
 
-<img src="./assets/webstorm-cvs-1.png" width="240" alt="WebStorm 设置版本管理 changes">
-<img src="./assets/webstorm-cvs-2.png" alt="WebStorm 设置版本管理 log">
+<img src="./assets/webstorm-cvs-1.png" width="240" alt="WebStorm 设置版本管理 changes" title="WebStorm 设置版本管理 changes">
+<img src="./assets/webstorm-cvs-2.png" alt="WebStorm 设置版本管理 log" title="WebStorm 设置版本管理 log">
 
 ### 其他功能
 
@@ -122,15 +122,15 @@
 
 ### 主界面
 
-<img src="./assets/sublime-body.png" alt="Sublime Text 主界面">
+<img src="./assets/sublime-body.png" alt="Sublime Text 主界面" title="Sublime Text 主界面">
 
 ### 设置文件 {#sublime-setting}
 
 * `Sublime Text` > `Settings...` > `Settings`
 * `command` + `,`
 
-<img src="./assets/sublime-settings.png" width="360" alt="Sublime Text 设置">
-<img src="./assets/sublime-settings-file.png" alt="Sublime Text 设置文件">
+<img src="./assets/sublime-settings.png" width="360" alt="Sublime Text 设置" title="Sublime Text 设置">
+<img src="./assets/sublime-settings-file.png" alt="Sublime Text 设置文件" title="Sublime Text 设置文件">
 
 #### 主题
 
@@ -144,7 +144,7 @@
 
 * `Sublime Text` > `Settings...` > `Key Bindings`
 
-<img src="./assets/sublime-keymap.png" alt="Sublime Text 快捷键">
+<img src="./assets/sublime-keymap.png" alt="Sublime Text 快捷键" title="Sublime Text 快捷键">
 
 ### 快捷操作
 
@@ -176,9 +176,9 @@
 * 点击安装插件 [命令面板](#sublime-command) + `Package Control: Install Package`
 * 输入搜索插件
 
-<img src="./assets/sublime-package-control.png" width="480" alt="Sublime Text Install Package Control">
-<img src="./assets/sublime-plugin.png" width="480" alt="Sublime Text Install 安装插件">
-<img src="./assets/sublime-plugin-list.png" width="480" alt="Sublime Text Install 搜索插件">
+<img src="./assets/sublime-package-control.png" width="480" alt="Sublime Text Install Package Control" title="Sublime Text Install Package Control">
+<img src="./assets/sublime-plugin.png" width="480" alt="Sublime Text Install 安装插件" title="Sublime Text Install 安装插件">
+<img src="./assets/sublime-plugin-list.png" width="480" alt="Sublime Text Install 搜索插件" title="Sublime Text Install 搜索插件">
 
 * 插件网址 https://packagecontrol.io/
 * 常用插件
@@ -213,21 +213,21 @@
 
 ### 主界面
 
-<img src="./assets/vscode-body.png" alt="VSCode 主界面">
+<img src="./assets/vscode-body.png" alt="VSCode 主界面" title="VSCode 主界面">
 
 ### 设置
 
 * `Manage`
 
-<img src="./assets/vscode-manage.png" width="260" alt="VSCode 设置">
+<img src="./assets/vscode-manage.png" width="260" alt="VSCode 设置" title="VSCode 设置">
 
 #### 设置文件 {#vscode-setting}
 
 * `Manage` + `Settings`
 * `command` + `,`
 
-<img src="./assets/vscode-settings-file.png" alt="VSCode 设置文件">
-<img src="./assets/vscode-settings-file-json.png" alt="VSCode 设置文件 JSON 格式">
+<img src="./assets/vscode-settings-file.png" alt="VSCode 设置文件" title="VSCode 设置文件">
+<img src="./assets/vscode-settings-file-json.png" alt="VSCode 设置文件 JSON 格式" title="VSCode 设置文件 JSON 格式">
 
 #### 主题
 
@@ -244,11 +244,11 @@
 * `Manage` > `Keyboard Shortcuts`
 * (`command` + `K`) + (`command` + `S`)
 
-<img src="./assets/vscode-keymap.png" alt="VSCode 快捷键">
+<img src="./assets/vscode-keymap.png" alt="VSCode 快捷键" title="VSCode 快捷键">
 
 ### 插件
 
-<img src="./assets/vscode-plugin.png" width="260" alt="VSCode 插件">
+<img src="./assets/vscode-plugin.png" width="260" alt="VSCode 插件" title="VSCode 插件">
 
 ### 快捷操作
 

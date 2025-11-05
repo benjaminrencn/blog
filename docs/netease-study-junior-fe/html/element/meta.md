@@ -17,10 +17,10 @@
   * 字符编码
   * 唯一
   * 推荐第一行
-  * 推荐 UTF-8
+  * 推荐 utf-8
     ```html
     <head>
-      <meta charset="UTF-8">
+      <meta charset="utf-8">
     </head>
     ```
 * `content`

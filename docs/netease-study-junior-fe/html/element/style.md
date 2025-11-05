@@ -7,7 +7,7 @@
 ## 作用
 
 * 装饰
-* 终点强调
+* 重点强调
 * 表现能力
 
 ## 插入方式
@@ -73,8 +73,9 @@
   * 浏览器判断不支持则不加载
 * `media`
   * 对资源有效的媒体设备
-  * 实现响应式
-    * 如 `<link rel="stylesheet" href="ver.css" media="(max-width: 500px)">` 屏幕宽度小徐500px时生效
+  * 值为媒体查询信息
+  * 如 `<link rel="stylesheet" href="style.css" media="(max-width: 500px)">` 屏幕宽度小于 500px 时生效
+  * 如 `<link rel="stylesheet" href="style.css" media="print">` 打印网页时生效
 
 ## 课后练习
 
@@ -90,5 +91,5 @@
 <<< ./snippets/media/print.css
 :::
 
-<img src="assets/style.png" width="220" alt="插入样式 课后练习">
-<img src="assets/style-print.png" alt="插入样式 课后练习 打印">
+<img src="assets/style.png" width="220" alt="插入样式 课后练习" title="插入样式 课后练习">
+<img src="assets/style-print.png" alt="插入样式 课后练习 打印" title="插入样式 课后练习 打印">
