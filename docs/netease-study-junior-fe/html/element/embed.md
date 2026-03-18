@@ -233,3 +233,15 @@
 :::
 
 <img style="display: inline-block;" src="assets/iframe.png" width="280" alt="iframe" title="iframe">
+
+## 课后练习
+
+::: code-group
+```js :no-line-numbers [index.js]
+/**
+ * 课后练习 图片
+ */
+```
+
+<<< ./snippets/embed/embed-image-2.html
+:::
