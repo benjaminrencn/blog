@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>视频</title>
+</head>
+<body>
+<dl>
+  <dt>&lt;video&gt; src、poster、controls</dt>
+  <dd><video src="../../assets/video.mp4" width="250" height="140" poster="../../assets/video-poster.png" controls>浏览器不支持 video 元素</video></dd>
+  <dt>&lt;video&gt; muted、autoplay</dt>
+  <dd><video src="../../assets/video.mp4" width="250" height="140" controls muted autoplay>浏览器不支持 video 元素</video></dd>
+  <dt>&lt;video&gt;、&lt;source&gt;</dt>
+  <dd>
+    <video width="250" height="140" poster="../../assets/video-poster.png" controls>
+      <source src="../../assets/video.webm">
+      <source src="../../assets/video.mp4" type="video/mp4">
+      浏览器不支持 video 元素
+    </video>
+  </dd>
+  <dt>&lt;video&gt;、&lt;track&gt; src、controls</dt>
+  <dd>
+    <video src="../../assets/video-track.mp4" width="250" height="188" controls>
+      <track kind="subtitles" srclang="zh" src="../../assets/video-track-zh.vtt">
+      <track kind="captions" srclang="en" src="../../assets/video-track-en.vtt">
+    </video>
+  </dd>
+  <dt>&lt;audio&gt;</dt>
+  <dd>
+    <audio src="../../assets/audio.mp3" controls></audio>
+  <dt>&lt;audio&gt;、&lt;source&gt;</dt>
+  <dd>
+    <audio controls>
+      <source src="../../assets/audio.mp3">
+    </audio>
+  </dd>
+</dl>
+</body>
+</html>

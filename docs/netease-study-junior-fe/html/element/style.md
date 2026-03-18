@@ -74,7 +74,7 @@
 * `media`
   * 对资源有效的媒体设备
   * 值为媒体查询信息
-  * 如 `<link rel="stylesheet" href="style.css" media="(max-width: 500px)">` 屏幕宽度小于 500px 时生效
+  * 如 `<link rel="stylesheet" href="style.css" media="(max-width: 500px)">` 屏幕宽度小于等于 500px 时生效
   * 如 `<link rel="stylesheet" href="style.css" media="print">` 打印网页时生效
 
 ## 课后练习

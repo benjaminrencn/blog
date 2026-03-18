@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>图片</title>
+</head>
+<body>
+<dl style="float: right;">
+  <dt>&lt;img&gt; src</dt>
+  <dd><img src="../../assets/chrome128.webp" alt="chrome"></dd>
+  <dt>&lt;img&gt; srcset x 像素密度</dt>
+  <!-- 根据屏幕像素密度显示 2x 屏幕（retina 屏）显示256，3x 屏幕显示512 -->
+  <dd><img src="../../assets/chrome128.webp" srcset="../../assets/chrome256.webp 2x, ../../assets/chrome512.webp 3x" alt="chrome"></dd>
+  <dt>&lt;img&gt; srcset w 宽度描述符结合像素密度</dt>
+  <!-- 根据 sizes 宽度小于等于1080图片宽度 128px 显示128，结合像素密度若是 2x 屏幕显示256 -->
+  <!-- 宽度大于1080图片宽度 256px 显示256，结合像素密度若是 2x 屏幕显示512 -->
+  <!-- 规范是不会降级图片，宽度放大后缩小不会加载小图，设计原则是大图质量好，避免不必要的网络请求 -->
+  <dd><img src="../../assets/chrome128.webp" alt="chrome" srcset="../../assets/chrome256.webp 256w, ../../assets/chrome512.webp 512w" sizes="(max-width: 1080px) 128px, 256px"></dd>
+  <dt>&lt;picture&gt; &lt;source&gt; 浏览器依次选择支持的格式</dt>
+  <!-- <picture> <source> 无样式，<img>.src 被替换为匹配的 <source> 资源 -->
+  <dd>
+    <picture>
+      <source type="image/webp" srcset="../../assets/chrome256webp.webp">
+      <source type="image/png" srcset="../../assets/chrome256.png">
+      <img src="../../assets/chrome256.png" alt="chrome">
+    </picture>
+  </dd>
+  <dt>&lt;picture&gt; &lt;source&gt; media 响应式</dt>
+  <!-- 宽度缩小会替换图片，设计原则是互斥的资源选择 -->
+  <dd>
+    <picture>
+      <source type="image/webp" srcset="../../assets/chrome128.webp 1x, ../../assets/chrome256.webp 2x" media="(max-width: 1080px)">
+      <source type="image/png" srcset="../../assets/chrome256.webp 1x, ../../assets/chrome512.webp 2x">
+      <img src="../../assets/chrome128.webp" alt="chrome">
+    </picture>
+  </dd>
+  <dt>&lt;a&gt; &lt;img&gt; ismap 服务器端图像映射</dt>
+  <a href="embed-image-is-map.html">
+    <img src="../../assets/chrome128.webp" alt="chrome">
+    <img src="../../assets/chrome128.webp" alt="chrome" ismap>
+  </a>
+</dl>
+</body>
+</html>
